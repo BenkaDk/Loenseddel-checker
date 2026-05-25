@@ -21,8 +21,8 @@ Et Python-script der automatisk analyserer PDF-lønsedler og opsummerer arbejdst
 git clone https://github.com/BenkaDk/Loenseddel-checker.git
 cd Loenseddel-checker
 
-# Installer afhængigheder
-pip install pdfplumber rich
+# Installer alle afhængigheder på én gang
+pip install -r requirements.txt
 ```
 
 > `rich` er valgfrit — scriptet fungerer uden, men tabellen bliver pænere med.
@@ -97,6 +97,7 @@ Brug `--debug` til at se hvilke mønstre der matcher din lønseddels tekst.
 ```
 Loenseddel-checker/
 ├── main.py          # Hovedscript
+├── requirements.txt # Afhængigheder
 ├── README.md
 └── lønsedler/       # Læg dine PDF-lønsedler her (lav selv mappen)
     ├── januar.pdf
