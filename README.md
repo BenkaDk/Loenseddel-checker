@@ -1,3 +1,5 @@
+![Lønseddel Checker Banner](./banner.png)
+
 # 📄 Lønseddel Checker
 
 Et Python-script der automatisk analyserer PDF-lønsedler og opsummerer arbejdstimer, sygedage og feriedage på tværs af alle dine sedler i én tabel.
